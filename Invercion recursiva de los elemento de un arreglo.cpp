@@ -7,7 +7,7 @@ void Swap(int &a,int &b){
 	b=x;
 }
 void RecInvertir(int arr[],int i,int tam){
-	if(i==tam)
+	if(i==tam||tam-i==1)
 		return;
 	else{
 		Swap(arr[i],arr[tam-1]);
